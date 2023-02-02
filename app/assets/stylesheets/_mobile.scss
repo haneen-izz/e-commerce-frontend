@@ -1,0 +1,112 @@
+$widthsize:(104px);
+$heightsize:(26px);
+@media  (max-width: 420px) {
+ 
+   #navbar{
+    padding: 30px 20px !important;
+   background-color: #C4C4C4;
+    
+        // flex-direction: column;
+        align-items: flex-start;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        align-items: center;
+    
+          
+        
+        .toggle-button {
+          display: flex;
+
+
+    }
+    .navLink{
+      width: 100%;
+      height: 100%;
+      background-color: $third-color;
+      position: fixed;
+      // transition: height 2s;
+      display: none;
+      min-width: 100%;
+      top: 89px;
+      z-index: 1;
+      left:0px;
+      ul{
+        padding: 0px ;
+      
+      li{
+        list-style-type: none;
+        padding: 30px ;
+        font-size: 23px;
+        color: $first-color;
+        text-align: center;
+      }
+    }
+  }
+
+    .icons{
+      display: flex;
+      gap: 12px;
+    }
+  
+    
+  
+
+
+    
+  }
+
+
+
+
+    .image {
+    width: $widthsize;
+    height: $heightsize;
+ }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    color: $first-color;
+    padding: 60px;
+    background-color: #C4C4C4;
+    border-radius: 0px 0px 50px 50px;
+    // padding: 100px 16px;
+  }
+  #firstHead{
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 52px;
+   text-align: center;
+   width: 288px;
+ 
+  }
+  #paragraph{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    position: relative;
+    bottom:50px;
+    width: 287px;
+
+  }
+  .btn{
+padding: 16px 35px;
+color: $third-color;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+background: $second-color;
+border-radius: 10px;
+border: none;
+
+
+  }
+
+
+}

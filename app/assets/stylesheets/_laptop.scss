@@ -1,0 +1,125 @@
+$widthsize:(144px);
+$heightsize:(36px);
+
+@media (min-width:769px ) and (max-width: 1024px) {
+  #navbar{
+    padding: 26px 40px ;
+       background-color: #C4C4C4;
+       list-style-type: none;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   
+       .logo{
+        order: -1;
+        
+    } 
+       .icons{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+         padding: 0px;
+         gap: 45px;
+
+       }
+       .navLink{
+        width: 100%;
+        height: 100%;
+        background-color: $third-color;
+        position: fixed;
+        // transition: height 2s;
+        min-width: 100%;
+        top: 89px;
+        z-index: 1;
+        left:0px;
+        display: none;
+        ul{
+          padding: 0px ;
+        li{
+          list-style-type: none;
+          padding: 30px  ;
+          font-size: 27px;
+          color: $first-color;
+          text-align: center;
+        }
+      }
+    }
+       .image {
+        width: $widthsize;
+        height: $heightsize;
+     }
+     }
+     .container{
+     padding: 50px 20px 150px;
+     background: #C4C4C4;
+      border-radius: 0px 0px 50px 50px;
+      
+      }
+      #firstHead{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 62px;
+        color:$first-color;
+        width: 500px;
+        // padding-right: 40px;
+       }
+       #paragraph{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33px;
+        color:$first-color;
+        position: relative;
+        bottom:35px
+       }
+       .btn{
+     padding: 20px 45px;
+     color: $third-color;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 23px;
+     background: $second-color;
+     border-radius: 10px;
+     border: none;
+      }
+      
+      footer{
+        .main-footer{
+           display: flex; 
+           background-color:$fifth-color;
+           justify-content: space-between;
+           padding: 100px 40px 32px;
+           color: $first-color;
+        }
+        .first-section{
+   
+      
+      .footer-logo{
+        width: 137px;
+      
+      }
+      .sub-first-section{
+        padding: 10px 7px;
+      }
+      .footer-icon{
+        gap: 36px;
+        display: flex;
+        // flex-direction: row;
+        // align-items: center;
+      }
+        }
+      }
+    }
+
+    @media (min-width:769px  ) and (max-width:950px) {
+      footer{
+        .main-footer{
+           display: flex; 
+           background-color:$fifth-color;
+           justify-content: space-between;
+           padding: 100px 25px 32px;
+           color: $first-color;
+        }
+      }
+    }

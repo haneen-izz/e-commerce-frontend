@@ -1,0 +1,146 @@
+
+
+
+@media (min-width:1025px ) {
+#navbar{
+    background-color: #C4C4C4;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+padding: 20px 100px;
+// gap: 343px;
+// background-color: #C4C4C4;
+.toggle-button{
+    display: none;
+}
+.toggle{
+    display: block;
+}
+.logo{
+.image{
+    width: 144px;
+}
+}
+.icons{
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 40px;
+}
+.navLink{
+    ul{
+list-style-type: none;
+display: flex;
+align-items: flex-start;
+color: $first-color;
+
+li{
+    margin-right: 42px;
+    font-style: normal;
+    font-size: 18px;
+    // letter-spacing: 0.05em;
+    // line-height: 70%;
+  
+}
+  #active{
+        font-weight: bold;
+        border-bottom: 3.5px solid $first-color;
+    }
+
+    }
+}
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    // padding: 80px 150px 100px;
+    background: #C4C4C4;
+    border-radius: 0px 0px 62px 62px;
+    padding: 100px;
+
+    
+  }
+  #firstHead{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 85px;
+    color: $first-color;
+    width: 600px;
+ 
+ 
+  }
+  #paragraph{
+    width: 539px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: $first-color;
+    position: relative;
+    bottom:40px
+  }
+  .btn{
+padding: 20px 40px;
+color: $third-color;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+background: $second-color;
+border-radius: 10px;
+border: none;
+
+  }
+  
+  footer{
+  .main-footer{
+     display: flex; 
+     background-color:$fifth-color;
+     justify-content: space-between;
+     padding: 100px 150px 32px;
+     color: $first-color;
+  }
+  .first-section{
+//   display: flex;
+// flex-direction: column;
+// align-items: flex-start;
+// padding: 0px;
+// gap: 21px;
+
+.footer-logo{
+  width: 137px;
+
+}
+.sub-first-section{
+  padding: 10px 7px;
+}
+.footer-icon{
+  gap: 36px;
+  display: flex;
+  // flex-direction: row;
+  // align-items: center;
+}
+  }
+}
+  
+
+}
+
+
+@media (min-width:1025px  ) and (max-width:1200px) {
+  footer{
+    .main-footer{
+       display: flex; 
+       background-color:$fifth-color;
+       justify-content: space-between;
+       padding: 100px 70px 32px;
+       color: $first-color;
+    }
+  }
+}

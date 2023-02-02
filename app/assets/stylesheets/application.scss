@@ -1,0 +1,19 @@
+$first-color: #07484A;
+$second-color: #70908B;
+$third-color: #FFFFFF;
+$fourth-color: #ebe1d8;
+$fifth-color: #F3F6F5;
+@import 'mobile';
+@import 'tablet';
+@import 'laptop';
+@import 'desktop';
+*{
+    box-sizing: border-box;
+    // // max-width: 100%;
+    // overflow: hidden;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+   
+}
